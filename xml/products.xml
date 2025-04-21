@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <category name="laptop">
+        <product>
+            <id>laptop1</id>
+            <name>Acer Aspire 5 A515-56</name>
+            <price>3,099.00</price>
+            <stock>12</stock>
+            <image>img/aspire5.jpg</image>
+            <description>A reliable everyday laptop with solid performance and a sleek Full HD display.</description>
+            <specs>
+                <processor>Intel® Core™ i5-1135G7</processor>
+                <ram>8 GB DDR4 </ram>
+                <storage>512 GB PCIe SSD</storage>
+                <display>15.6" Full HD (1920 x 1080), IPS</display>
+                <graphics>Intel® Iris® Xe Graphics</graphics>
+                <battery>3-cell Li-Ion, up to 8 hours</battery>
+                <weight>1.65 kg (Black) / 1.90 kg (Silver)</weight>
+                <os>Windows 11 Home</os>
+            </specs>
+        </product>
+        <product>
+            <id>laptop2</id>
+            <name>Apple MacBook Air M2</name>
+            <price>3,199.00</price>
+            <stock>8</stock>
+            <image>img/macbookair.jpg</image>
+            <description>A lightweight, powerful MacBook ideal for creatives and productivity on the go.</description>
+            <specs>
+                <processor>Apple M2 chip</processor>
+                <ram>8 GB Unified Memory</ram>
+                <storage>256 GB SSD</storage>
+                <display>13.6" Liquid Retina (2560 x 1664)</display>
+                <graphics>Integrated 8-core GPU</graphics>
+                <battery>Up to 18 hours</battery>
+                <weight>1.24 kg</weight>
+                <os>macOS Ventura</os>
+            </specs>
+        </product>
+        <product>
+            <id>laptop3</id>
+            <name>ASUS Vivobook 15 A1504</name>
+            <price>2,699.00</price>
+            <stock>10</stock>
+            <image>img/vivobook15.jpg</image>
+            <description>A budget-friendly laptop with modern specs and a vivid 15.6” screen.</description>
+            <specs>
+                <processor>Intel Core i5-1335U</processor>
+                <ram>8 GB DDR4 (expandable to 16 GB)</ram>
+                <storage>512 GB M.2 NVMe PCIe 3.0 SSD</storage>
+                <display>15.6" Full HD (1920 x 1080), IPS</display>
+                <graphics>Intel® UHD Graphics</graphics>
+                <battery>42Wh, 3-cell Li-ion</battery>
+                <weight>1.7kg</weight>
+                <os>Windows 11 Home</os>
+            </specs>
+        </product>
+        <product>
+            <id>laptop4</id>
+            <name>Dell Inspiron 15</name>
+            <price>3,499.00</price>
+            <stock>5</stock>
+            <image>img/inspiron15.jpg</image>
+            <description>A versatile laptop built for multitasking and casual computing.</description>
+            <specs>
+                <processor> Intel® Core™ i5-1235U</processor>
+                <ram>8 GB DDR4</ram>
+                <storage>512 GB SSD</storage>
+                <display>15.6" Full HD (1920 x 1080)</display>
+                <graphics>Intel® Iris® Xe Graphics</graphics>
+                <battery>3-cell, 41Wh</battery>
+                <weight>1.85kg</weight>
+                <os>Windows 11 Home</os>
+            </specs>
+        </product>
+        <product>
+            <id>laptop5</id>
+            <name>HP Pavilion Gaming Laptop</name>
+            <price>3,999.00</price>
+            <stock>2</stock>
+            <image>img/gaminglaptop.jpg</image>
+            <description>A performance-focused gaming laptop with a high-refresh display and GTX graphics.</description>
+            <specs>
+                <processor>AMD Ryzen™ 5 5600H</processor>
+                <ram>8 GB DDR4</ram>
+                <storage>512 GB SSD</storage>
+                <display>15.6" Full HD (1920 x 1080), 144Hz</display>
+                <graphics>NVIDIA® GeForce® GTX 1650</graphics>
+                <battery>52.5Wh, up to 8 hours</battery>
+                <weight>2.23 kg</weight>
+                <os>Windows 11 Home</os>
+            </specs>
+        </product>
+        <product>
+            <id>laptop6</id>
+            <name>Lenovo ThinkPad X1 Carbon Gen 9</name>
+            <price>6,069.00</price>
+            <stock>2</stock>
+            <image>img/thinkpad.jpg</image>
+            <description>A premium business ultrabook offering power, portability, and durability.</description>
+            <specs>
+                <processor>Intel® Core™ i7-1165G7</processor>
+                <ram>16 GB LPDDR4x</ram>
+                <storage>512 GB</storage>
+                <display>14" WUXGA (1920 x 1200), IPS</display>
+                <graphics>Intel® Iris® Xe Graphics</graphics>
+                <battery>Up to 15 hours</battery>
+                <weight>1.13 kg</weight>
+                <os>Windows 11 Pro</os>
+            </specs>
+        </product>
+    </category>
+    <category name="psu">
+        <product>
+            <id>psus1</id>
+            <name>Cooler Master MWE 650 Bronze</name>
+            <price>279.00</price>
+            <stock>13</stock>
+            <image>img/650bronze.jpg</image>
+            <description>Efficient and reliable 650W PSU with strong protection features for mid-range builds.</description>
+            <specs>
+                <wattage>650W</wattage>
+                <efficiency>Up to 88%</efficiency>
+                <cooling>120mm HDB Fan</cooling>
+                <protections>OVP, OPP, SCP, UVP, OTP</protections>
+                <dimensions>140 x 150 x 86 mm</dimensions>
+            </specs> 
+        </product>
+        <product>
+            <id>psus2</id>
+            <name>Corsair RM850</name>
+            <price>725.00</price>
+            <stock>9</stock>
+            <image>img/corsairrm850.jpg</image>
+            <description>High-performance, fully modular 850W PSU with Gold efficiency and silent cooling.</description>
+            <specs>
+                <wattage>850W</wattage>
+                <efficiency>Up to 92%</efficiency>
+                <cooling>140mm Fan with Zero RPM Mode</cooling>
+                <protections>OVP, OPP, SCP, UVP, OTP</protections>
+                <dimensions>150 x 86 x 160 mm</dimensions>
+            </specs>
+        </product>
+        <product>
+            <id>psus3</id>
+            <name>EVGA 600W</name>
+            <price>249.00</price>
+            <stock>9</stock>
+            <image>img/evga600w.jpg</image>
+            <description>Affordable 600W PSU with basic protection and stable power for entry-level systems.</description>
+            <specs>
+                <wattage>600W</wattage>
+                <efficiency>Up to 80%</efficiency>
+                <cooling>120mm Sleeve Bearing Fan</cooling>
+                <protections>OVP, OCP, SCP</protections>
+                <dimensions>140 x 150 x 85 mm</dimensions>
+            </specs>
+        </product>
+        <product>
+            <id>psus4</id>
+            <name>Seasonic Focus GX-750</name>
+            <price>650.00</price>
+            <stock>3</stock>
+            <image>img/gx750.jpg</image>
+            <description>Premium 750W Gold-rated PSU with quiet hybrid fan and full modularity for enthusiasts.</description>
+            <specs>
+                <wattage>750W</wattage>
+                <efficiency>Up to 90%</efficiency>
+                <cooling>120mm Fluid Dynamic Bearing Fan with Hybrid Silent Fan Control</cooling>
+                <protections>OPP, OVP, UVP, OCP, OTP, SCP</protections>
+                <dimensions>140 x 150 x 86 mm</dimensions>
+            </specs>
+        </product>
+        <product>
+            <id>psus5</id>
+            <name>Thermaltake Smart 500W</name>
+            <price>239.00</price>
+            <stock>7</stock>
+            <image>img/thermaltake.jpg</image>
+            <description>Quiet and efficient 500W PSU designed for budget-conscious builds with essential protections.</description>
+            <specs>
+                <wattage>500W</wattage>
+                <efficiency>Up to 86%</efficiency>
+                <cooling>120mm Ultra Quiet Fan</cooling>
+                <protections>OVP, OPP, SCP</protections>
+                <dimensions>150 x 86 x 140 mm</dimensions>
+            </specs>
+        </product>
+    </category>
+    <category name="desktop">
+        <product>
+            <id>desktop1</id>
+            <name>ASUS ROG NUC 970</name>
+            <price>10,999.00</price>
+            <stock>2</stock>
+            <image>img/desktop1.jpg</image>
+            <description>Ultra-compact high-end gaming PC featuring Intel Core Ultra 9 and RTX 4070 for exceptional 1440p gaming performance.</description>
+            <specs>
+                <type>Mini Gaming PC</type>
+                <cpu>Intel Core Ultra 9 185H</cpu>
+                <gpu>NVIDIA GeForce RTX 4070 (Mobile)</gpu>
+                <ram>32GB DDR5-5600</ram>
+                <storage>1TB M.2 SSD</storage>
+            </specs>
+        </product>
+        <product>
+            <id>desktop2</id>
+            <name>Alienware Aurora R16 Gaming Desktop</name>
+            <price>7,499.00</price>
+            <stock>7</stock>
+            <image>img/desktop2.jpg</image>
+            <description>High-performance gaming desktop featuring Intel Core i7-14700KF and NVIDIA GeForce RTX 4060, designed for smooth 1080p and 1440p gaming experiences.</description>
+            <specs>
+                <type>Mid-Tower Gaming Desktop</type>
+                <cpu>Intel Core i7-14700KF (20 cores, 61MB cache, up to 5.60 GHz Turbo Max 3.0)</cpu>
+                <gpu>NVIDIA GeForce RTX 4060, 8GB GDDR6</gpu>
+                <ram>16GB Dual Channel DDR5 (2x8GB) 5600 MT/s</ram>
+                <storage>1TB M.2 PCIe NVMe SSD</storage>
+            </specs>
+        </product>
+        <product>
+            <id>desktop3</id>
+            <name>Corsair Vengeance i7500 Gaming Desktop</name>
+            <price>18,999.00</price>
+            <stock>7</stock>
+            <image>img/desktop3.jpg</image>
+            <description>Premium gaming desktop featuring Intel Core i9-14900K and NVIDIA GeForce RTX 4090, delivering exceptional 4K gaming performance.​</description>
+            <specs>
+                <type>Mid-Tower Gaming Desktop</type>
+                <cpu>Intel Core i9-14900K (24 cores, up to 6.0 GHz)</cpu>
+                <gpu>NVIDIA GeForce RTX 4090 24GB</gpu>
+                <ram>64GB DDR5-6000</ram>
+                <storage>2TB NVMe SSD</storage>
+            </specs>
+        </product>
+    </category>
+    <category name="cpu">
+        <product>
+            <id>cpu1</id>
+            <name>AMD Ryzen 5 7600</name>
+            <price>799.00</price>
+            <stock>5</stock>
+            <image>img/ryzen5.jpg</image>
+            <description>A 6-core processor offering excellent performance for gaming and productivity.</description>
+            <specs>
+                <BaseClock>3.8 GHz</BaseClock>
+                <MaxBoostClock>5.1 GHz</MaxBoostClock>
+                <Cores>6 cores</Cores>
+            </specs>
+        </product>
+                <product>
+            <id>cpu2</id>
+            <name>AMD Ryzen 9 7950X</name>
+            <price>2,499.00</price>
+            <stock>7</stock>
+            <image>img/ryzen9.jpg</image>
+            <description>A high-end 16-core CPU designed for demanding gaming and content creation tasks.</description>
+            <specs>
+                <BaseClock>4.5 GHz</BaseClock>
+                <MaxBoostClock>5.7 GHz</MaxBoostClock>
+                <Cores>16 cores</Cores>
+            </specs>
+        </product>
+        <product>
+            <id>cpu3</id>
+            <name>Intel Core i5-13400</name>
+            <price>1,099.00</price>
+            <stock>2</stock>
+            <image>img/corei5.jpg</image>
+            <description>A balanced 10-core processor suitable for everyday computing and multitasking.</description>
+            <specs>
+                <BaseClock>2.5 GHz</BaseClock>
+                <MaxBoostClock>4.6 GHz</MaxBoostClock>
+                <Cores>10 cores</Cores>
+            </specs>
+        </product>
+        <product>
+            <id>cpu4</id>
+            <name>Intel Core i7-13700K</name>
+            <price>2,159.00</price>
+            <stock>5</stock>
+            <image>img/corei7.jpg</image>
+            <description>A powerful 16-core CPU ideal for high-performance gaming and productivity.</description>
+            <specs>
+                <BaseClock>3.4 GHz</BaseClock>
+                <MaxBoostClock>5.4 GHz</MaxBoostClock>
+                <Cores>16 cores</Cores>
+            </specs>
+        </product>
+        <product>
+            <id>cpu5</id>
+            <name>Intel Core i9-14900K</name>
+            <price>2,099.00</price>
+            <stock>5</stock>
+            <image>img/corei9.jpg</image>
+            <description>Intel's flagship 24-core processor delivering top-tier performance for enthusiasts.</description>
+            <specs>
+                <BaseClock>3.2 GHz</BaseClock>
+                <MaxBoostClock>6.0 GHz</MaxBoostClock>
+                <Cores>24 cores</Cores>
+            </specs>
+        </product>
+    </category>
+    <category name="gpu">
+        <product>
+            <id>gpu1</id>
+            <name>Asus Radeon RX 7900 XT</name>
+            <price>5,639.00</price>
+            <stock>5</stock>
+            <image>img/gpu1.jpg</image>
+            <description>A high-performance AMD GPU with 20GB GDDR6 memory, ideal for 4K gaming and creative workloads.</description>
+            <specs>
+                <memory>20GB GDDR6</memory>
+                <BoostClock>Up to 2394 MHz</BoostClock>
+                <Cores>5376 Stream Processors</Cores>
+            </specs>
+        </product>
+        <product>
+            <id>gpu2</id>
+            <name>Gigabyte GeForce RTX 4080 16GB GAMING OC</name>
+            <price>5,699.00</price>
+            <stock>5</stock>
+            <image>img/gpu2.jpg</image>
+            <description>A powerful NVIDIA GPU with 16GB GDDR6X memory, delivering exceptional performance for high-end gaming and content creation.</description>
+            <specs>
+                <memory>16GB GDDR6X</memory>
+                <BoostClock>Up to 2535 MHz</BoostClock>
+                <Cores>9728</Cores>
+            </specs>
+        </product>
+    </category>
+    <category name="coolers">
+        <product>
+            <id>coolers1</id>
+            <name>Cooler Master Hyper 212 RGB</name>
+            <price>229.00</price>
+            <stock>5</stock>
+            <image>img/coolers1.jpg</image>
+            <description>Popular air cooler with a 120mm RGB fan and four direct contact heat pipes for efficient cooling.</description>
+            <specs>
+                <FanSpeed>650 to 1800 RPM (PWM)</FanSpeed>
+                <NoiseLevel>8 to 30 dBA</NoiseLevel>
+            </specs>
+        </product>
+        <product>
+            <id>coolers2</id>
+            <name>NZXT Kraken X63 RGB</name>
+            <price>649.00</price>
+            <stock>5</stock>
+            <image>img/coolers2.jpg</image>
+            <description>All-in-one liquid cooler with a 280mm radiator, dual 140mm RGB fans, and customizable lighting.</description>
+            <specs>
+                <FanSpeed>500 to 1500 RPM (PWM)</FanSpeed>
+                <NoiseLevel>21 to 38 dBA</NoiseLevel>
+            </specs>
+        </product>
+    </category>
+    <category name="motherboards">
+        <product>
+            <id>motherboards1</id>
+            <name>ASUS PRIME H610M-E D4</name>
+            <price>399.00</price>
+            <stock>3</stock>
+            <image>img/motherboards1.jpg</image>
+            <description>A micro-ATX motherboard featuring Intel H610 chipset, supporting 12th, 13th, and 14th Gen Intel Core processors with DDR4 memory.</description>
+            <specs>
+                <FormFactor>Micro-ATX</FormFactor>
+                <MemorySupport>Up to 64GB DDR4 3200 MHz</MemorySupport>
+                <ExpansionSlots>1 x PCIe 4.0 x16, 1 x PCIe 3.0 x1</ExpansionSlots>
+            </specs>
+        </product>
+        <product>
+            <id>motherboards2</id>
+            <name>ASUS ROG Strix Z790-E Gaming</name>
+            <price>1,899.00</price>
+            <stock>1</stock>
+            <image>img/motherboards2.jpg</image>
+            <description>An ATX motherboard with Intel Z790 chipset, supporting 12th and 13th Gen Intel Core processors with DDR5 memory, designed for high-performance gaming.</description>
+            <specs>
+                <FormFactor>ATX</FormFactor>
+                <MemorySupport>Up to 128GB DDR5 6400 MHz</MemorySupport>
+                <ExpansionSlots>2 x PCIe 5.0 x16, 1 x PCIe 4.0 x16</ExpansionSlots>
+            </specs>
+        </product>
+    </category>
+    <category name="speakers">
+        <product>
+            <id>speaker1</id>
+            <name>Creative Pebble Pro</name>
+            <price>329.00</price>
+            <stock>32</stock>
+            <image>img/speaker1.jpg</image>
+            <description>Compact desktop 2.0 speakers with Bluetooth 5.3, USB-C audio, and RGB lighting.</description>
+            <specs>
+                <PowerOutput>USB: 10W RMS / 20W Peak</PowerOutput>
+                <FrequencyResponse>80 Hz to 20,000 Hz</FrequencyResponse>
+                <Connectivity>USB-C, Bluetooth 5.3, 3.5mm AUX-in, Headset and Mic jacks</Connectivity>
+            </specs>
+        </product>
+        <product>
+            <id>speaker2</id>
+            <name>Pioneer DJ DM-50D-BT</name>
+            <price>1,099.00</price>
+            <stock>17</stock>
+            <image>img/speaker2.jpg</image>
+            <description>5-inch professional Bluetooth monitor speakers for DJs and producers, with studio and DJ sound modes.</description>
+            <specs>
+                <PowerOutput>25W per speaker (Class D amplifier)</PowerOutput>
+                <FrequencyResponse>54 Hz to 20,000 Hz</FrequencyResponse>
+                <Connectivity>Bluetooth 5.0, 1/4" TRS, RCA, 3.5mm AUX</Connectivity>
+            </specs>
+        </product>
+    </category>
+
+</products> 
