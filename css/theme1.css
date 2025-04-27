@@ -322,7 +322,6 @@ button[type="submit"]:hover {
     }
 }
 
-/* Products Page Styles */
 .products-page {
     padding: 4rem 2rem;
     background-color: #f8f9fa;
@@ -407,6 +406,20 @@ button[type="submit"]:hover {
     background: #4299e1;
     color: white;
     border-color: #4299e1;
+}
+
+.sort-options {
+    margin: 1rem auto;
+    max-width: 200px;
+}
+
+.sort-options select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.375rem;
+    background: white;
+    color: #4a5568;
 }
 
 .products-grid {
@@ -522,7 +535,6 @@ button[type="submit"]:hover {
     color: #4a5568;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .products-page {
         padding: 2rem 1rem;
@@ -556,7 +568,6 @@ button[type="submit"]:hover {
     }
 }
 
-/* About Page Styles */
 .about-section {
     max-width: 1200px;
     margin: 0 auto;
@@ -685,7 +696,6 @@ button[type="submit"]:hover {
     margin-bottom: 0.5rem;
 }
 
-/* Contact Page Styles */
 .contact-section {
     max-width: 1200px;
     margin: 0 auto;
@@ -784,7 +794,6 @@ button[type="submit"]:hover {
     margin-bottom: 1rem;
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
 
     .about-hero,
@@ -805,7 +814,6 @@ button[type="submit"]:hover {
     }
 }
 
-/* Cart Page Styles */
 .cart-section {
     max-width: 1200px;
     margin: 0 auto;
@@ -985,7 +993,6 @@ button[type="submit"]:hover {
     }
 }
 
-/* Page Header Styles */
 .page-header {
     text-align: center;
     padding: 6rem 2rem 3rem;
