@@ -137,37 +137,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    const sortSelect = document.getElementById('sort-select');
-    if (sortSelect) {
-        sortSelect.addEventListener('change', () => {
-            const sortValue = sortSelect.value;
-            const productsGrid = document.getElementById('products-grid');
-            const products = Array.from(productsGrid.children);
-
-            products.sort((a, b) => {
-                const priceA = parseFloat(a.querySelector('.price').textContent.replace('$', ''));
-                const priceB = parseFloat(b.querySelector('.price').textContent.replace('$', ''));
-                const nameA = a.querySelector('h3').textContent;
-                const nameB = b.querySelector('h3').textContent;
-
-                switch (sortValue) {
-                    case 'price-asc':
-                        return priceA - priceB;
-                    case 'price-desc':
-                        return priceB - priceA;
-                    case 'name-asc':
-                        return nameA.localeCompare(nameB);
-                    case 'name-desc':
-                        return nameB.localeCompare(nameA);
-                    default:
-                        return 0;
-                }
-            });
-
-            products.forEach(product => productsGrid.appendChild(product));
-        });
-    }
-
     const contactForm = document.getElementById('contact-form');
     if (contactForm) {
         contactForm.addEventListener('submit', (e) => {
