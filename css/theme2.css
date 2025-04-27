@@ -320,19 +320,6 @@ main {
     border-color: var(--primary-color);
 }
 
-.sort-options {
-    margin-bottom: 2rem;
-    text-align: right;
-}
-
-.sort-options select {
-    padding: 0.5rem;
-    border: 1px solid var(--border-color);
-    border-radius: 0.5rem;
-    background-color: #374151;
-    color: var(--text-color);
-}
-
 .pagination {
     display: flex;
     justify-content: center;
@@ -389,10 +376,6 @@ main {
     .category-filters {
         flex-direction: column;
         align-items: center;
-    }
-
-    .sort-options {
-        text-align: center;
     }
 }
 
@@ -491,14 +474,8 @@ main {
     }
 }
 
-/* Products Page Specific Styles - Dark Theme */
 .search-bar input::placeholder {
     color: #9ca3af;
-}
-
-.sort-options select option {
-    background-color: #1f2937;
-    color: var(--text-color);
 }
 
 .pagination-btn:disabled {
@@ -1054,20 +1031,6 @@ main {
     background: var(--primary-color);
     color: white;
     border-color: var(--primary-color);
-}
-
-.sort-options {
-    margin: 1rem auto;
-    max-width: 200px;
-}
-
-.sort-options select {
-    width: 100%;
-    padding: 0.5rem;
-    border: 1px solid var(--border-color);
-    border-radius: 0.375rem;
-    background: #1f2937;
-    color: var(--text-color);
 }
 
 .products-grid {
